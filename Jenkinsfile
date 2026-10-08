@@ -29,7 +29,7 @@ pipeline {
                         -u "$DH_USER" \
                         --password-stdin
 
-                        docker push srihari03/hiring-app:${BUILD_NUMBER}
+                        docker push srihari0310/hiring-app:${BUILD_NUMBER}
                     '''
                 }
             }
